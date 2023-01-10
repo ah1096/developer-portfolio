@@ -19,17 +19,21 @@ export default function AboutMe(){
 
                 {/* <span className="hover-img"> */}
 
-                    
-
+                <div class="hex">
+                    <div class="hex-background">
                     <img id="profilephoto" className="d-block mx-lg-auto img-fluid" 
                         loading="lazy" 
                         alt="my profile photo from Awesome Inc" 
                         src= {profilePic.imageUrl}
-                        style={{
-                            width: profilePic.imageWidth,
-                            height: profilePic.imageHeight
-                            }}
+                        // style={{
+                        //     width: profilePic.imageWidth,
+                        //     height: profilePic.imageHeight
+                        //     }}
                     ></img>
+                    </div>
+                </div>
+
+                    
                 {/* </span> */}
 
             </div>
