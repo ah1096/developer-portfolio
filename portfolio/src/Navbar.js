@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 export default function Navbar() {
     return (
 
-<div classNameName="navbar">
+<div className="navbar">
 
     <nav id="navbar" className="navbar navbar-expand-lg">
 
@@ -50,12 +50,6 @@ export default function Navbar() {
                 <li className="d-inline">🇬🇧</li>
               </ul> */}
 
-
-              <div className="d-flex">
-                <button className="btn btn-outline-light" type="submit">
-                  <i class="fas fa-download" id="icon"></i>   <a href="/images/Alyssa-Holbert-2023-resume.pdf" download="Alyssa_Holbert_resume_2023">resumé</a>
-                  </button>
-              </div>
 
             </div>
 

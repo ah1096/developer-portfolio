@@ -11,6 +11,7 @@ export default function ContactMe(){
                             <div className="row justify-content-center">
                                 <button className="col-2 mx-3 btn btn-outline-light"> <a HREF="mailto:arh.10.96@gmail.com?Subject=Hi%20Alyssa%21"><i class="fa-sharp fa-solid fa-envelope"></i> say hi </a></button>
                                 <button className="col-2 mx-3 btn btn-outline-light"> <a HREF="https://www.linkedin.com/in/alyssa-r-holbert/"><i class="fa-brands fa-linkedin"></i> connect </a></button>
+                                <button className="col-2 mx-3 btn btn-outline-light" type="submit"><i class="fas fa-download" id="icon"></i>   <a href="/images/Alyssa-Holbert-2023-resume.pdf" download="Alyssa-Holbert-2023-resume">resumé</a></button>
                             </div>
                         </div>
                 </div>
