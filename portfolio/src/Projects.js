@@ -64,7 +64,7 @@ export default function Projects(){
                 <h7 className="text-align-start">featured project</h7>
                   <h2 className="card-title">Neighborly</h2>
                   <p className="card-text">A social media site focused on building local connections, 
-                                          getting to know your neighbors, and creating a smalle-scale barter economy 
+                                          getting to know your neighbors, and creating a small-scale barter economy 
                                           with other individuals in your community.</p>
                   <a className="card-text"><small className="text-muted">Link to project webpage</small></a>
                 </div>
@@ -101,16 +101,13 @@ export default function Projects(){
   </div>
 </div>
     
-    
-
-
     <div className="row">
       <div className="card-group px-6">
 
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
           <span className="hover-img">
-            <img src={alarmgif.imageUrl} className="card-img-top" alt="..."></img>
+            <img src={alarmgif.imageUrl} className="card-img-top smallproject" alt="..."></img>
           </span>
         </div>
         <div className="card-body">
@@ -123,7 +120,7 @@ export default function Projects(){
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
           <span className="hover-img">
-            <img src={todogif.imageUrl} className="card-img-top" alt="..."></img>
+            <img src={todogif.imageUrl} className="card-img-top smallproject" alt="..."></img>
           </span>
         </div>
         <div className="card-body">
@@ -136,7 +133,7 @@ export default function Projects(){
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
           <span className="hover-img">
-            <img src={mindreadergif.imageUrl} className="card-img-top" alt="..."></img>
+            <img src={mindreadergif.imageUrl} className="card-img-top smallproject" alt="..."></img>
           </span>
         </div>
         <div className="card-body">

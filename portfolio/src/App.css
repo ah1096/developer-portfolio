@@ -52,10 +52,13 @@
 #projectCardSmall{
   width: 18rem;
 }
-/* =======
-  color: #ffc1cc;
-  list-style: none;
-} */
+
+.smallproject {
+  height: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 25px;
+}
 
 body {
   background-color: #000000;
@@ -167,6 +170,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   position: relative;
   text-align: center;
   width: 100%;
+  border-radius: 25px;
 }
 
 .hover-img * {
@@ -185,6 +189,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   transition: all 0.3s ease;
   opacity: .5;
   transform: scaleY(2);
+  border-radius: 25px;
 }
 
 .hover-img img {
