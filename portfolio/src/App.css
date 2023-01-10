@@ -265,7 +265,7 @@ a:active {
 
 .hex-background {
   position: absolute;
-  background-color: orange; /*color of the main-background*/
+  background-color: black; /*color of the main-background*/
   top: 2px; /* equal to border thickness */
   left: 2px; /* equal to border thickness */
   width: 430px; /* container height - (border thickness * 2) */

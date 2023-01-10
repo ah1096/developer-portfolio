@@ -22,7 +22,6 @@ export default function AboutMe(){
                 <div class="hex">
                     <div class="hex-background">
                     <img id="profilephoto" className="d-block mx-lg-auto img-fluid" 
-                        loading="lazy" 
                         alt="my profile photo from Awesome Inc" 
                         src= {profilePic.imageUrl}
                         // style={{
