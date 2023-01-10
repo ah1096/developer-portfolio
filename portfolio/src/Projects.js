@@ -46,16 +46,16 @@ export default function Projects(){
   <div className="container col-xxl-8 px-4 py-5 text-center">
 
     <div className="col-lg-6">
-      <h1 className="display-5 fw-bold lh-1 mb-8">Things I've made</h1>
+      <h1 className="display-5 fw-bold lh-1 projectheader">Things I've made</h1>
     </div>
-  
+
 
     <div id="projectCard" className="card mb-3">
             <div className="row g-0">
 
               <div className="col-md-4">
                 {/* <span className="hover-imgBW"> */}
-                  <img src={neighborlygif.imageUrl} className="img-fluid rounded-start" alt="..."></img>
+                  <img src={neighborlygif.imageUrl} className="img-fluid rounded-start bigproject" alt="..."></img>
                 {/* </span> */}
               </div>
 
@@ -74,7 +74,7 @@ export default function Projects(){
       </div>
 
 
-    <div id="projectCard" className="card mb-3">
+    {/* <div id="projectCard" className="card mb-3">
           <div className="row">
 
             <div className="col-md-8">
@@ -91,13 +91,13 @@ export default function Projects(){
             </div>
 
             <div className="col-md-4">
-              {/* <span className="hover-imgBW"> */}
-                <img src={fillerpic.imageUrl} className="img-fluid rounded-end" alt="..."></img>
-              {/* </span> */}
+              
+                <img src={fillerpic.imageUrl} className="img-fluid rounded-end bigproject" alt="..."></img>
+            
             </div>
 
           </div>
-    </div>
+    </div> */}
   </div>
 </div>
     
