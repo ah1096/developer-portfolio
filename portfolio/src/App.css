@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -43,7 +45,15 @@
 
 #skill-list{
   columns: 2;
+  list-style: none;
+  color: white;
   }
+
+  #skill-list i{
+    font-size: 26px;
+    display: inline;
+    margin-right: 10px;
+    }
 
 #projectCard{
   max-width: 100%;
@@ -63,8 +73,8 @@
 }
 
 .bigproject {
-  height: 300px;
-  max-width: 100%;
+
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -81,26 +91,16 @@ h1, h7 {
   color: #f67b8f;
 }
 
+h2 {
+  color: #ffffff;
+}
+
 h5 {
   color: white;
 }
 
 p{
   color: white;
-}
-
-#linkbutton {
-  color: white;
-  background-color: #f67b8f;
-  border-radius: 7px;
-  border: 1px solid #f67b8f;
-  padding: 10px;
-}
-
-#linkbutton:hover {
-  color:#f67b8f;
-  background-color: white;
-  border: 1px solid #f67b8f;
 }
 
 .navbar {
@@ -222,11 +222,31 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 #projectCard{
-  background-color: #ffc1cc;
+  background-color: #000000;
 }
 
 #projectCardSmall {
   background-color:#000000;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f67b8f
+}
+
+a:active {
+  text-decoration: none;
+  color: #f67b8f
 }
 
 

@@ -18,6 +18,9 @@ export default function AboutMe(){
             <div className="col-10 col-sm-8 col-lg-6">
 
                 {/* <span className="hover-img"> */}
+
+                    
+
                     <img id="profilephoto" className="d-block mx-lg-auto img-fluid" 
                         loading="lazy" 
                         alt="my profile photo from Awesome Inc" 
@@ -48,12 +51,25 @@ export default function AboutMe(){
                     </div>
 
                     <ul id="skill-list">
-                        <li>Javascript</li>
-                        <li>HTML & CSS</li>
-                        <li>Python</li>
-                        <li>ReactJS</li>
-                        <li>Django</li>
-                        <li>Bootstrap</li>
+                        <li> 
+                            <i class="fa-brands fa-js align-middle"></i>
+                            Javascript</li>
+                        <li> 
+                            <i class="fa-brands fa-html5 align-middle"></i>
+                            HTML & CSS</li>
+                        <li>
+                            <i class="fa-brands fa-python align-middle"></i>
+                            Python
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-react align-middle"></i>
+                            ReactJS</li>
+                        <li>
+                            <i class="fa-solid fa-database align-middle"></i>
+                            Django</li>
+                        <li>
+                            <i class="fa-brands fa-bootstrap align-middle"></i>
+                            Bootstrap</li>
                     </ul>
 
                     {/* <button id="linkbutton">learn more</button> */}

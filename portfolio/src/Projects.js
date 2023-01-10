@@ -55,7 +55,7 @@ export default function Projects(){
 
               <div className="col-md-4">
                 {/* <span className="hover-imgBW"> */}
-                  <img src={neighborlygif.imageUrl} className="img-fluid rounded-start bigproject" alt="..."></img>
+                  <img src={neighborlygif.imageUrl} className="img-fluid bigproject" alt="..."></img>
                 {/* </span> */}
               </div>
 
@@ -63,10 +63,10 @@ export default function Projects(){
                 <div className="card-body">
                 <h7 className="text-align-start">featured project</h7>
                   <h2 className="card-title">Neighborly</h2>
-                  <p className="card-text">A social media site focused on building local connections, 
+                  <p className="card-text">My final project for Awesome Inc's web developer bootcamp: a social media site focused on building local connections, 
                                           getting to know your neighbors, and creating a small-scale barter economy 
                                           with other individuals in your community.</p>
-                  <a className="card-text"><small className="text-muted">Link to project webpage</small></a>
+                                          <button className="btn btn-outline-light"> <a HREF="#" target="_blank">visit site </a></button>
                 </div>
               </div>
 
@@ -98,11 +98,13 @@ export default function Projects(){
 
           </div>
     </div> */}
-  </div>
+  
 </div>
     
-    <div className="row">
-      <div className="card-group px-6">
+    
+
+    <div className="row px-4 py-5 my-5">
+      <div className="card-group px-6 pb-6">
 
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
@@ -113,7 +115,7 @@ export default function Projects(){
         <div className="card-body">
           <h5 className="card-title">Alarm Clock</h5>
           <p className="card-text">A simple alarm clock application with date selection coded in JavaScript.</p>
-          <a href="https://ah1096.github.io/alarm-clock/">Visit site</a>
+          <a href="https://ah1096.github.io/alarm-clock/" target="_blank">Visit site</a>
         </div>
       </div>
 
@@ -126,7 +128,7 @@ export default function Projects(){
         <div className="card-body">
           <h5 className="card-title">2Dew</h5>
           <p className="card-text">A to-do list app that utilizes local storage to keep user data.</p>
-          <a href="#">Visit site</a>
+          <a href="#" target="_blank">Visit site</a>
         </div>
       </div>
 
@@ -139,12 +141,20 @@ export default function Projects(){
         <div className="card-body">
           <h5 className="card-title">Mind Reader</h5>
           <p className="card-text">A fortune-teller that utilizes state manipulation to change page views.</p>
-          <a href="https://ah1096.github.io/mind-reader/">Visit site</a>
+          <a href="https://ah1096.github.io/mind-reader/" target="_blank">Visit site</a>
         </div>
       </div>
     </div>
 
+    <div>
+              <div className="d-flex justify-content-center">
+                <button className="btn btn-outline-light" type="submit">
+                <i class="fa-brands fa-github"></i>   <a href="https://github.com/ah1096" target="_blank">see more</a>
+                  </button>
+              </div>
+    </div>
 
+</div>
 </div>
 </div>    
     )

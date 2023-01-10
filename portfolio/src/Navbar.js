@@ -1,6 +1,4 @@
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Navbar() {
@@ -27,12 +25,12 @@ export default function Navbar() {
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="/#ProjectSection">Work</a>
+                  <a className="nav-link" href="/#ProjectSection">Projects</a>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="/#BlogSection">Blog</a>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <a className="nav-link" href="/#ContactSection">Contact</a>
@@ -55,8 +53,7 @@ export default function Navbar() {
 
               <div className="d-flex">
                 <button className="btn btn-outline-light" type="submit">
-                    resume
-                  resumé <FontAwesomeIcon icon={faDownload} />
+                  <i class="fas fa-download" id="icon"></i>   <a href="/images/Alyssa-Holbert-2023-resume.pdf" download="Alyssa_Holbert_resume_2023">resumé</a>
                   </button>
               </div>
 
