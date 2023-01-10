@@ -5,6 +5,7 @@ import AboutMe from './AboutMe.js';
 import Projects from './Projects.js';
 import ContactMe from './ContactMe.js'
 import Footer from './Footer.js';
+import BlogPosts from './BlogPosts.js'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Navbar/>
         <AboutMe/>
         <Projects/>
-        {/* <BlogPosts/> */}
+        <BlogPosts/>
         <ContactMe/>
         <Footer/>
     </div>

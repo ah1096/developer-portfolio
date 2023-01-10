@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&display=swap');
+
 
 .App {
   text-align: center;
@@ -39,9 +41,13 @@
   }
 }
 
-#language-toggle li{
-  float: right;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
+
+/* #language-toggle li{
+  float: right;
+} */
 
 #skill-list{
   columns: 2;
@@ -49,11 +55,12 @@
   color: white;
   }
 
-  #skill-list i{
-    font-size: 26px;
-    display: inline;
-    margin-right: 10px;
-    }
+i {
+  display: inline;
+  margin-right: 10px;
+}
+
+
 
 #projectCard{
   max-width: 100%;
@@ -87,8 +94,9 @@ body {
   background-color: #000000;
 }
 
-h1, h7 {
+h1 {
   color: #f67b8f;
+  font-family: 'Press Start 2P', cursive;
 }
 
 h2 {
@@ -99,6 +107,10 @@ h5 {
   color: white;
 }
 
+h7 {
+  color: #f67b8f;
+}
+
 p{
   color: white;
 }
@@ -106,6 +118,10 @@ p{
 .navbar {
   background-color: #ffc1cc;
   color:#000000;
+  position: fixed;
+  width: 100vw;
+  z-index: 4;
+  top: 0;
 }
 .nav-link {
   color: #000000;
@@ -113,6 +129,11 @@ p{
 .nav-link:hover {
   color: #fafafa;
 }
+.logo {
+  height: 60px;
+}
+
+
 
 .form-check-input:checked {
   background-color: #f67b8f;

@@ -1,4 +1,11 @@
-import ReactDOM from 'react-dom'
+import AHLogoBlack from './images/AH_coding_logo_BLACK.png'
+
+const Logo = {
+  name: 'Logo',
+  imageUrl: AHLogoBlack,
+  imageHeight: 100,
+  imageWidth: 100,
+};
 
 
 export default function Navbar() {
@@ -10,7 +17,10 @@ export default function Navbar() {
 
         <div className="container-fluid">
 
-            <a className="navbar-brand" href="#">Alyssa Holbert</a>
+            <a className="navbar-brand" href="#">
+              <img className="logo" src={Logo.imageUrl} alt="" />
+
+            </a>
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -28,9 +38,9 @@ export default function Navbar() {
                   <a className="nav-link" href="/#ProjectSection">Projects</a>
                 </li>
 
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <a className="nav-link" href="/#BlogSection">Blog</a>
-                </li> */}
+                </li>
 
                 <li className="nav-item">
                   <a className="nav-link" href="/#ContactSection">Contact</a>
