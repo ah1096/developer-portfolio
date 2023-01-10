@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Navbar() {
@@ -41,7 +41,7 @@ export default function Navbar() {
               </ul>
 
             {/* Get help on the language toggle */}
-              <ul id="language-toggle" classname="mt-4">
+              {/* <ul id="language-toggle" classname="mt-4">
                 <li className="d-inline">🇯🇵</li>
                 <li className="d-inline">
                   <div className="form-check form-switch me-0">
@@ -50,13 +50,13 @@ export default function Navbar() {
                   </div>
                 </li>
                 <li className="d-inline">🇬🇧</li>
-              </ul>
+              </ul> */}
 
 
               <div className="d-flex">
                 <button className="btn btn-outline-light" type="submit">
                     resume
-                  {/* resumé <FontAwesomeIcon icon={faDownload} /> */}
+                  resumé <FontAwesomeIcon icon={faDownload} />
                   </button>
               </div>
 
