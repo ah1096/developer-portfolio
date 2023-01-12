@@ -31,19 +31,19 @@ export default function Navbar() {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                 <li className="nav-item">
-                  <a className="nav-link"  href="/#AboutSection">About</a>
+                  <a className="nav-link"  href="/#AboutSectionV3">About</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="/#ProjectSection">Projects</a>
+                  <a className="nav-link" href="/#ProjectSectionV3">Projects</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="/#BlogSection">Blog</a>
+                  <a className="nav-link" href="/#BlogSectionV3">Blog</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="/#ContactSection">Contact</a>
+                  <a className="nav-link" href="/#ContactSectionV3">Contact</a>
                 </li>
 
               </ul>

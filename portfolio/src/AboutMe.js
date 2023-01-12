@@ -9,7 +9,7 @@ const profilePic = {
 
 export default function AboutMe(){
     return(
-<div className="vh-100" id="AboutSection">
+<div className="vh-100" id="AboutSectionV3">
     <div className="px-4 py-5 my-5 ">
 
     <div className="container col-xxl-8 px-4 py-5">

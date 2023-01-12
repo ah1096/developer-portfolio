@@ -9,7 +9,7 @@ const BlogLogo = {
 
 export default function BlogPosts(){
     return(
-<div className="vh-100 d-flex align-items-middle justify-content-center" id="BlogSection">
+<div className="vh-100 d-flex align-items-middle justify-content-center" id="BlogSectionV3">
     <div className="px-4 py-5 my-5 ">
 
         <div className="container col-xxl-8 px-4 py-5">

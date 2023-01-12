@@ -41,7 +41,7 @@ const mindreadergif = {
 
 export default function Projects(){
     return(
-<div id="ProjectSection">
+<div id="ProjectSectionV3">
 <div className="px-4 py-5 my-5">
   <div className="container col-xxl-8 px-4 py-5 text-center">
 
@@ -66,7 +66,7 @@ export default function Projects(){
                   <p className="card-text">My final project for Awesome Inc's web developer bootcamp: a social media site focused on building local connections, 
                                           getting to know your neighbors, and creating a small-scale barter economy 
                                           with other individuals in your community.</p>
-                                          <button className="btn btn-outline-light"> <a HREF="#" target="_blank">visit site </a></button>
+                                          <button className="btn btn-outline-light"> <a HREF="https://neighborly-e5a2f.web.app/home" target="_blank">visit site </a></button>
                 </div>
               </div>
 
