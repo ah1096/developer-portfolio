@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/http//:ah1096.github.io/developer-portfolio/static/css/main.797afa87.css",
+    "main.js": "/http//:ah1096.github.io/developer-portfolio/static/js/main.1a29b49f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/http//:ah1096.github.io/developer-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mindreadergif.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/mindreadergif.c51b990a8179a71748e1.gif",
+    "static/media/headshot.jpg": "/http//:ah1096.github.io/developer-portfolio/static/media/headshot.95bb709178417621e79b.jpg",
+    "static/media/neighborly.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/neighborly.17286fae09e22b58a22c.gif",
+    "static/media/todolist.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/todolist.a58150f229a49618e6ac.gif",
+    "static/media/alarmclock.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/alarmclock.b03a1ae5354987a1cfce.gif",
+    "static/media/Alyssa-Holbert-2023-resume.pdf": "/http//:ah1096.github.io/developer-portfolio/static/media/Alyssa-Holbert-2023-resume.fdfe427b89036497211b.pdf",
+    "static/media/him.jpg": "/http//:ah1096.github.io/developer-portfolio/static/media/him.b3c3328bbdbcd8cb4a52.jpg",
+    "static/media/AH_coding_logo_BLACK.png": "/http//:ah1096.github.io/developer-portfolio/static/media/AH_coding_logo_BLACK.502218510f6193fd40aa.png",
+    "static/media/AH_coding_logo.png": "/http//:ah1096.github.io/developer-portfolio/static/media/AH_coding_logo.2417ffd8310160c7a06d.png",
+    "static/media/logo.svg": "/http//:ah1096.github.io/developer-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/http//:ah1096.github.io/developer-portfolio/index.html",
+    "main.797afa87.css.map": "/http//:ah1096.github.io/developer-portfolio/static/css/main.797afa87.css.map",
+    "main.1a29b49f.js.map": "/http//:ah1096.github.io/developer-portfolio/static/js/main.1a29b49f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/http//:ah1096.github.io/developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.797afa87.css",
+    "static/js/main.1a29b49f.js"
+  ]
+}
