@@ -67,7 +67,7 @@ export default function AboutMe(){
                             Bootstrap</li>
                     </ul>
 
-                    {/* <button id="linkbutton">learn more</button> */}
+                
             </div>
         </div>
         </div>
