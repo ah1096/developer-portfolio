@@ -1,15 +1,8 @@
-import him from './images/him.jpg';
 import todo from './images/todolist.gif';
 import alarm from './images/alarmclock.gif';
 import neighborly from './images/neighborly.gif';
 import mindreader from './images/mindreadergif.gif';
 
-const fillerpic = {
-    name: 'fillerpic',
-    imageUrl: him,
-    imageHeight: 300,
-    imageWidth: 300,
-};
 
 const todogif = {
   name: 'todogif',
@@ -66,7 +59,7 @@ export default function Projects(){
                   <p className="card-text">My final project for Awesome Inc's web developer bootcamp: a social media site focused on building local connections, 
                                           getting to know your neighbors, and creating a small-scale barter economy 
                                           with other individuals in your community.</p>
-                                          <button className="btn btn-outline-light"> <a HREF="#" target="_blank">visit site </a></button>
+                                          <button className="btn btn-outline-light"> <a HREF="#" target="_blank">visit site</a></button>
                 </div>
               </div>
 
@@ -115,7 +108,7 @@ export default function Projects(){
         <div className="card-body">
           <h5 className="card-title">Alarm Clock</h5>
           <p className="card-text">A simple alarm clock application with date selection coded in JavaScript.</p>
-          <a href="https://ah1096.github.io/alarm-clock/" target="_blank">Visit site</a>
+          <a href="https://ah1096.github.io/alarm-clock/" target="_blank" rel="noreferrer">Visit site</a>
         </div>
       </div>
 
@@ -128,7 +121,7 @@ export default function Projects(){
         <div className="card-body">
           <h5 className="card-title">2Dew</h5>
           <p className="card-text">A to-do list app that utilizes local storage to keep user data.</p>
-          <a href="#" target="_blank">Visit site</a>
+          <a href="#" target="_blank" rel="noreferrer">Visit site</a>
         </div>
       </div>
 
@@ -141,7 +134,7 @@ export default function Projects(){
         <div className="card-body">
           <h5 className="card-title">Mind Reader</h5>
           <p className="card-text">A fortune-teller that utilizes state manipulation to change page views.</p>
-          <a href="https://ah1096.github.io/mind-reader/" target="_blank">Visit site</a>
+          <a href="https://ah1096.github.io/mind-reader/" target="_blank" rel="noreferrer">Visit site</a>
         </div>
       </div>
     </div>
@@ -149,7 +142,7 @@ export default function Projects(){
     <div>
               <div className="d-flex justify-content-center">
                 <button className="btn btn-outline-light" type="submit">
-                <i class="fa-brands fa-github"></i>   <a href="https://github.com/ah1096" target="_blank">see more</a>
+                <i class="fa-brands fa-github"></i>   <a href="https://github.com/ah1096" target="_blank" rel="noreferrer">see more</a>
                   </button>
               </div>
     </div>

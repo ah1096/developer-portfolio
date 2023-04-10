@@ -19,7 +19,7 @@ export default function BlogPosts(){
                     <h1 className="display-5 fw-bold lh-1 mb-3">Blog</h1>
                         <div>
                             <p>See my most recent posts about web development on Hashnode.</p>
-                            <button className="btn btn-outline-light"><i class="fa-brands fa-hashnode"></i><a href="https://alyssah.hashnode.dev/" target="_blank">blog</a></button>
+                            <button className="btn btn-outline-light"><i class="fa-brands fa-hashnode"></i><a href="https://alyssah.hashnode.dev/" target="_blank" rel="noreferrer">blog</a></button>
                         </div>
                 </div>
 
