@@ -2,7 +2,7 @@ import resume from './images/Alyssa-Holbert-2023-resume.pdf'
 
 export default function ContactMe(){
     return(
-        <div className="vh-100 d-flex align-items-center justify-content-center" id="ContactSection">
+        <div className="vh-100 d-flex align-items-center justify-content-center" id="ContactSectionV3">
             <div className="row">
                 <div className= "text-center">
                     <h1 className="display-5 fw-bold">Contact Me</h1>
