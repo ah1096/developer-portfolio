@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/http//:ah1096.github.io/developer-portfolio/static/css/main.797afa87.css",
-    "main.js": "/http//:ah1096.github.io/developer-portfolio/static/js/main.1b5a1f70.js",
-    "static/js/787.1ed0c42c.chunk.js": "/http//:ah1096.github.io/developer-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/mindreadergif.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/mindreadergif.c51b990a8179a71748e1.gif",
-    "static/media/headshot.jpg": "/http//:ah1096.github.io/developer-portfolio/static/media/headshot.95bb709178417621e79b.jpg",
-    "static/media/neighborly.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/neighborly.17286fae09e22b58a22c.gif",
-    "static/media/todolist.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/todolist.a58150f229a49618e6ac.gif",
-    "static/media/alarmclock.gif": "/http//:ah1096.github.io/developer-portfolio/static/media/alarmclock.b03a1ae5354987a1cfce.gif",
-    "static/media/Alyssa-Holbert-2023-resume.pdf": "/http//:ah1096.github.io/developer-portfolio/static/media/Alyssa-Holbert-2023-resume.4546c4b705b2a38c5c6c.pdf",
-    "static/media/AH_coding_logo_BLACK.png": "/http//:ah1096.github.io/developer-portfolio/static/media/AH_coding_logo_BLACK.502218510f6193fd40aa.png",
-    "static/media/AH_coding_logo.png": "/http//:ah1096.github.io/developer-portfolio/static/media/AH_coding_logo.2417ffd8310160c7a06d.png",
-    "index.html": "/http//:ah1096.github.io/developer-portfolio/index.html",
-    "main.797afa87.css.map": "/http//:ah1096.github.io/developer-portfolio/static/css/main.797afa87.css.map",
-    "main.1b5a1f70.js.map": "/http//:ah1096.github.io/developer-portfolio/static/js/main.1b5a1f70.js.map",
-    "787.1ed0c42c.chunk.js.map": "/http//:ah1096.github.io/developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/developer-portfolio/static/css/main.797afa87.css",
+    "main.js": "/developer-portfolio/static/js/main.0979f95e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/developer-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mindreadergif.gif": "/developer-portfolio/static/media/mindreadergif.c51b990a8179a71748e1.gif",
+    "static/media/headshot.jpg": "/developer-portfolio/static/media/headshot.95bb709178417621e79b.jpg",
+    "static/media/neighborly.gif": "/developer-portfolio/static/media/neighborly.17286fae09e22b58a22c.gif",
+    "static/media/todolist.gif": "/developer-portfolio/static/media/todolist.a58150f229a49618e6ac.gif",
+    "static/media/alarmclock.gif": "/developer-portfolio/static/media/alarmclock.b03a1ae5354987a1cfce.gif",
+    "static/media/Alyssa-Holbert-2023-resume.pdf": "/developer-portfolio/static/media/Alyssa-Holbert-2023-resume.4546c4b705b2a38c5c6c.pdf",
+    "static/media/AH_coding_logo_BLACK.png": "/developer-portfolio/static/media/AH_coding_logo_BLACK.502218510f6193fd40aa.png",
+    "static/media/AH_coding_logo.png": "/developer-portfolio/static/media/AH_coding_logo.2417ffd8310160c7a06d.png",
+    "index.html": "/developer-portfolio/index.html",
+    "main.797afa87.css.map": "/developer-portfolio/static/css/main.797afa87.css.map",
+    "main.0979f95e.js.map": "/developer-portfolio/static/js/main.0979f95e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.797afa87.css",
-    "static/js/main.1b5a1f70.js"
+    "static/js/main.0979f95e.js"
   ]
 }
