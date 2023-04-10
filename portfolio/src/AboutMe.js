@@ -21,7 +21,7 @@ export default function AboutMe(){
                 <div class="hex">
                     <div class="hex-background">
                     <img id="profilephoto" className="d-block mx-lg-auto img-fluid" 
-                        alt="my profile photo from Awesome Inc" 
+                        alt="the author of this website" 
                         src= {profilePic.imageUrl}
                     ></img>
                     </div>

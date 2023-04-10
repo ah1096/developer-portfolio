@@ -17,7 +17,7 @@ export default function Navbar() {
 
         <div className="container-fluid">
 
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/#AboutSection">
               <img className="logo" src={Logo.imageUrl} alt="" />
 
             </a>
