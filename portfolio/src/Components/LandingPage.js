@@ -12,8 +12,17 @@ export const LandingPage = () => {
 
                 <div id="landingtext" className="col-8">
                     <h1>Hi, I'm Alyssa</h1>
-                    <p>a full stack developer with a passion for creating engaging user experiences and elegant applications.</p>
-                    <p>Currently searching for new opportunities.</p>
+                    <p>a 
+                        <span id="highlighttext">
+                            full stack developer
+                        </span>
+                            with a passion for creating engaging user experiences and elegant applications.
+                    </p>
+                    <p>Currently searching for 
+                        <span id="highlighttext">
+                            new opportunities.
+                        </span>
+                    </p>
                 </div>
 
                 <div id="landingicon" className="col-4">
