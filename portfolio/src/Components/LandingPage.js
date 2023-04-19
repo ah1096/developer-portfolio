@@ -16,7 +16,8 @@ export const LandingPage = () => {
                         <strong className="highlighttext"> full stack developer </strong>
                         with a passion for creating engaging user experiences and elegant applications.
                     </p>
-                    <p>Currently searching for <strong className="highlighttext">new opportunities.</strong>
+                    <p>I'm currently searching for <strong className="highlighttext">new opportunities</strong>. 
+                    Let's get in touch!
                     </p>
                 </div>
 
