@@ -7,13 +7,10 @@ export const ProjectPage = () => {
             <div className="col-4">
                 <h1>Projects</h1>
             </div>
-            <div className="col-8 align-self-center">
+            <div className="pixelfont col-8 align-self-center">
                 <h10>see more at my   
-                    <span id="highlighttext">
                         <a href="#">  portfolio gallery</a>! 
-                    </span>
-                </h10>
-                    
+                </h10>    
             </div>
         </div>
 

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=DotGothic16&family=Press+Start+2P&display=swap');
+
 
 :root {
   --main-neutral: #fff;
@@ -6,6 +7,7 @@
   --main-highlight: #f67b8f;
   --secondary-highlight: #ffc1cc;
 }
+
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -29,6 +31,16 @@ button {
   background-color: var(--main-highlight);
   color: var(--main-neutral);
 }
+
+.highlighttext {
+  color: var(--main-highlight);
+}
+
+/* not working, figure out later
+.pixelfont {
+  font-family: 'DotGothic16', sans-serif;
+} */
+
 
 
 

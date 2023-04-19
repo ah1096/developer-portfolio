@@ -11,17 +11,12 @@ export const LandingPage = () => {
             <div className="row align-items-center vh-100">
 
                 <div id="landingtext" className="col-8">
-                    <h1>Hi, I'm Alyssa</h1>
-                    <p>a 
-                        <span id="highlighttext">
-                            full stack developer
-                        </span>
-                            with a passion for creating engaging user experiences and elegant applications.
+                    <h1>Hi, I'm Alyssa!</h1>
+                    <p>a
+                        <strong className="highlighttext"> full stack developer </strong>
+                        with a passion for creating engaging user experiences and elegant applications.
                     </p>
-                    <p>Currently searching for 
-                        <span id="highlighttext">
-                            new opportunities.
-                        </span>
+                    <p>Currently searching for <strong className="highlighttext">new opportunities.</strong>
                     </p>
                 </div>
 
