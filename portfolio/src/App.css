@@ -41,6 +41,87 @@ button {
   font-family: 'DotGothic16', sans-serif;
 } */
 
+.pinkbutton {
+  background-color: var(--main-highlight);
+  border: 1px solid var(--main-highlight);
+  color: var(--main-neutral);
+}
+
+.pinkbutton:hover{
+  background-color: var(--main-neutral);
+  border: 1px solid var(--main-neutral);
+  color: var(--main-highlight);
+}
+
+/* ============ PROJECT CARD HOVER EFFECT ============= */
+.hovercontainer {
+  position: relative;
+  width: 50%;
+}
+
+.projectimage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.overlay {
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.hovercontainer:hover .overlay {
+  height: 100%;
+}
+
+.hovertext {
+  opacity: 100%;
+  color: var(--main-neutral);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* ========================================== */
+
+#project-title {
+  font-weight: bold;
+  color: var(--main-neutral);
+}
+
+#project-info {
+  color: var(--main-neutral);
+}
+
+.toolsused {
+  text-align: center;
+}
+
+.toolsused.ul {
+  list-style: none;
+}
+
+.toolsused, li {
+  display: inline-block;
+  color: var(--secondary-neutral);
+  background-color: var(--main-neutral);
+  border-radius: 15px;
+  padding: 1px 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
 
 
 
