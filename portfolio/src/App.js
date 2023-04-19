@@ -4,6 +4,10 @@ import { ProjectPage } from './Components/ProjectPage.js'
 import { AboutPage } from './Components/AboutPage.js'
 import { ContactPage } from './Components/ContactPage.js'
 
+// TODO/stretch goals:
+// - add typewriter effect to LandingPage header text
+// - add aseSprite avatar to Landinpage in place of icon
+// - create float-in effect (see sliding mushrooms project from 50p50d)
 
 export default function App() {
   return (
