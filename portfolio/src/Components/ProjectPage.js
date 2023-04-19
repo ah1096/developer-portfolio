@@ -1,7 +1,7 @@
 export const ProjectPage = () => {
     return (
-        <div id="projectpage" className="container">
-        <div className="row">
+    <div id="projectpage" className="container vh-100 w-100 mx-auto">
+        <div className="row align-items-center">
 
             <div className="col-4">
                 <h1>Projects</h1>
@@ -13,9 +13,9 @@ export const ProjectPage = () => {
 
         </div>
 
-        <div id="projectcards" className="row">
+        <div id="projectcards" className="h-75 row align-items-center">
 
-        <div className="col-4">
+        <div className="col-4 h-50">
             <div className="card">
                 <div className="card-body">
                     <h5 className="card-title">Project title</h5>
