@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export const slideInFromBottom = () => {
+export const useSlideInFromBottom = () => {
     useEffect(() => {
         const el = document.querySelector('.slide-in-bottom');
         el.classList.add('slide-in-bottom-active');
@@ -8,4 +8,6 @@ export const slideInFromBottom = () => {
         el.classList.remove('slide-in-bottom-active');
         };
     }, []);
+
+return null;
 };

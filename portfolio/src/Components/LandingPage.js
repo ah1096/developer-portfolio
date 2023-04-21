@@ -1,13 +1,18 @@
-import logo from '../images/AH_coding_logo.png'
+import logo from '../images/AH_coding_logo.png';
+import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
+
 const brandLogo = {
     name: 'brandLogo',
     imageUrl: logo,
 };
 
 
+
 export const LandingPage = () => {
+    useSlideInFromBottom();
+
     return ( 
-        <div id="landingpage" className="container vh-100 w-100 mx-auto">
+        <div id="landingpage" className="container vh-100 w-100 mx-auto slide-in-bottom">
             <div className="row align-items-center vh-100">
 
                 <div id="landingtext" className="col-8">
