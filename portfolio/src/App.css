@@ -127,6 +127,26 @@ button {
   list-style: none;
 }
 
+/* ====== SLIDE IN FROM BOTTOM ANIMATION =====*/
+
+.slide-in-bottom {
+  animation-name: slideInBottom;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* ========================================== */
+
 
 
 
