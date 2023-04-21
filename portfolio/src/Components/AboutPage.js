@@ -1,4 +1,5 @@
-import logo from '../images/AH_coding_logo.png'
+import logo from '../images/AH_coding_logo.png';
+import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
 const brandLogo = {
     name: 'brandLogo',
     imageUrl: logo,
@@ -8,8 +9,10 @@ const brandLogo = {
 
 
 export const AboutPage = () => {
+    useSlideInFromBottom()
+    
     return ( 
-        <div id="aboutpage" className="container vh-100 w-100 mx-auto">
+        <div id="aboutpage" className="container vh-100 w-100 mx-auto slide-in-bottom">
             <h1>About me</h1>
 
             <div className="row align-items-center">
