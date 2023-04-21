@@ -94,7 +94,9 @@ button {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/* ========================================== */
+
+
+/* ========== PROJECT CARD STYLING ========= */
 
 #project-title {
   font-weight: bold;
@@ -105,26 +107,12 @@ button {
   color: var(--main-neutral);
 }
 
-/* .toolsused {
-  text-align: center;
-}
-
-.toolsused.ul {
-  list-style: none;
-}
-
-.toolsused, li {
-  display: inline-block;
-  color: var(--secondary-neutral);
+.badge-pill {
   background-color: var(--main-neutral);
-  border-radius: 15px;
-  padding: 1px 3px;
-  margin-left: 3px;
-  margin-right: 3px;
-} */
-
-.iconlist ul {
-  list-style: none;
+  color: var(--secondary-neutral);
+  margin: 0 5px 5px 0;
+  padding: 5px 12px;
+  border-radius: 25px;
 }
 
 /* ====== SLIDE IN FROM BOTTOM ANIMATION =====*/

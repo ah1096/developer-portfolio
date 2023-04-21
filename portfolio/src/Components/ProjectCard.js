@@ -18,10 +18,10 @@ export const ProjectCard = () => {
                         </div>
 
                         <div classname="row toolsused">
-                            <ul>
-                                <li>tool 1</li>
-                                <li>tool 2</li>
-                                <li>tool 3</li>
+                            <ul className="list-unstyled d-flex flex-wrap justify-content-center">
+                                <li><span className="badge badge-pill badge-secondary">tool 1</span></li>
+                                <li><span className="badge badge-pill badge-secondary">tool 2</span></li>
+                                <li><span className="badge badge-pill badge-secondary">tool 3</span></li>
                             </ul>
                         </div>
 
