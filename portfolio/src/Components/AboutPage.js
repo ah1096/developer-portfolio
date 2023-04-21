@@ -1,5 +1,9 @@
 import logo from '../images/AH_coding_logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHtml5, faCss3Alt, faJsSquare, faPython, faBootstrap, faReact, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faBugSlash, faCheckDouble, faDatabase, faArrowsSpin } from "@fortawesome/free-solid-svg-icons";
 import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
+
 const brandLogo = {
     name: 'brandLogo',
     imageUrl: logo,
@@ -30,49 +34,87 @@ export const AboutPage = () => {
             </div>
 
             <div id="techstack" className="row">
-
-                <div className="row">
-                    <div className="col">
-                        <h3 id="techheader">My tech stack + tools</h3>
-                    </div>
+                <div className="col-12">
+                    <h3 id="techheader">My tech stack + tools</h3>
                 </div>
 
-                <div id="techstackicons" className="row">
-                {/* add appropriate icons later + add more from resume; make text visible on hover (desktop) or under icons (mobile) */}
-
-                <div className="col-4" id="languages">
-                    <h10>languages</h10>
-                    <div className="iconlist">
-                        <ul>
-                            <li>HTML + CSS</li>
-                            <li>Javascript</li>
-                            <li>Python</li>
-                        </ul>
+                <div id="techstackicons" className="row justify-content-center">
+                    <div className="col-12 col-md-8 col-lg-6">
+                        <div className="row">
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faHtml5} className="tool-icon" />
+                                <span className="tool-name">HTML5</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faCss3Alt} className="tool-icon" />
+                                <span className="tool-name">CSS3</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faJsSquare} className="tool-icon" />
+                                <span className="tool-name">JavaScript</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faPython} className="tool-icon" />
+                                <span className="tool-name">Python</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faReact} className="tool-icon" />
+                                <span className="tool-name">React</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faBootstrap} className="tool-icon" />
+                                <span className="tool-name">Bootstrap</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faPython} className="tool-icon" />
+                                <span className="tool-name">Django</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faGithub} className="tool-icon" />
+                                <span className="tool-name">GitHub/Git CLI</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faArrowsSpin} className="tool-icon" />
+                                <span className="tool-name">Agile Methodology</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faDatabase} className="tool-icon" />
+                                <span className="tool-name">REST APIs</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faBugSlash} className="tool-icon" />
+                                <span className="tool-name">Debugging</span>
+                            </div>
+                            </div>
+                            <div className="col-6 col-md-4">
+                            <div className="tool">
+                                <FontAwesomeIcon icon={faCheckDouble} className="tool-icon" />
+                                <span className="tool-name">Test-Driven Development </span>
+                                </div>
+                                </div>
+                        </div>
                     </div>
-                </div>
-
-                <div className="col-4" id="frameworks">
-                    <h10>frameworks and libraries</h10>
-                    <div className="iconlist">
-                        <ul>
-                            <li>React</li>
-                            <li>Bootstrap</li>
-                            <li>Django</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="col-4" id="otherskills">
-                    <h10>other skills + tools</h10>
-                    <div className="iconlist">
-                        <ul>
-                            <li>Github CLI</li>
-                            <li>Agile Methodology</li>
-                            <li>API Integration</li>
-                        </ul>
-                    </div>
-                </div>
-
                 </div>
 
             </div>
