@@ -8,6 +8,7 @@ const brandLogo = {
 };
 
 
+
 export const AboutPage = () => {
     useSlideInFromBottom()
     
