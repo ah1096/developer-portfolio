@@ -17,7 +17,7 @@ export const AboutPage = () => {
     useSlideInFromBottom()
     
     return ( 
-        <div id="aboutpage" className="container vh-100 w-100 mx-auto slide-in-bottom">
+        <div id="aboutpage" className="container vh-100 w-100 mx-auto mt-md-5 slide-in-bottom">
             <h1 id="aboutlink">About me</h1>
 
             <div className="row align-items-center">
