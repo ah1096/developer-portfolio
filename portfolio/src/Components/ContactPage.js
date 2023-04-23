@@ -1,4 +1,7 @@
 import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons';
+
 
 export const ContactPage = () => {
   useSlideInFromBottom()
@@ -11,14 +14,32 @@ export const ContactPage = () => {
         <h1 id="contactlink">Contact me</h1>
 
         <div id="contacttext" className="col-6">
-          <p>this is some text about how you can get in touch with me</p>
+          <div className="row">
+            <p>this is some text about how you can get in touch with me</p>
+          </div>
 
-          {/* make these horizontal later */}
-          <ul id="socialicons">
-            <li>Linkedin</li>
-            <li>Discord</li>
-            <li>Github</li>
-          </ul>
+          <div className="row align-items-center text-center">
+            <ul className="list-inline justify-content-space-between">
+              <li className="list-inline-item text-center">
+                <a href="#">
+                  <FontAwesomeIcon className="social-icon" icon={faLinkedin} />
+                  <span className="d-block">LinkedIn</span>
+                </a>
+              </li>
+              <li className="list-inline-item text-center">
+                <a href="#">
+                  <FontAwesomeIcon className="social-icon" icon={faDiscord}/>
+                  <span className="d-block">Discord</span>
+                </a>
+              </li>
+              {/* <li className="list-inline-item text-center">
+                <a href="#">
+                  <FontAwesomeIcon className="social-icon" icon={faGithub}/>
+                  <span className="d-block">GitHub</span>
+                </a>
+              </li> */}
+            </ul>
+          </div>
 
         </div>
 

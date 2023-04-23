@@ -159,6 +159,12 @@ button {
   color: var(--main-highlight);
 }
 
+/* =========CONTACT STYLING======= */
+.social-icon{
+  color: var(--secondary-highlight);
+  font-size: 3rem;
+}
+
 
 
 
