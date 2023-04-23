@@ -19,27 +19,25 @@ export const ContactPage = () => {
           </div>
 
           <div className="row align-items-center text-center">
-            <ul className="list-inline justify-content-space-between">
-              <li className="list-inline-item text-center">
-                <a href="#">
-                  <FontAwesomeIcon className="social-icon" icon={faLinkedin} />
-                  <span className="d-block">LinkedIn</span>
-                </a>
-              </li>
-              <li className="list-inline-item text-center">
-                <a href="#">
-                  <FontAwesomeIcon className="social-icon" icon={faDiscord}/>
-                  <span className="d-block">Discord</span>
-                </a>
-              </li>
-              {/* <li className="list-inline-item text-center">
-                <a href="#">
-                  <FontAwesomeIcon className="social-icon" icon={faGithub}/>
-                  <span className="d-block">GitHub</span>
-                </a>
-              </li> */}
-            </ul>
-          </div>
+            <div className="col-sm-4">
+              <a className="social-link" href="#">
+                <FontAwesomeIcon className="social-icon" icon={faLinkedin} />
+                <span className="d-block">LinkedIn</span>
+              </a>
+            </div>
+            <div className="col-sm-4">
+              <a className="social-link" href="#">
+                <FontAwesomeIcon className="social-icon" icon={faDiscord}/>
+                <span className="d-block">Discord</span>
+              </a>
+            </div>
+            <div className="col-sm-4">
+              <a className="social-link" href="#">
+                <FontAwesomeIcon className="social-icon" icon={faGithub}/>
+                <span className="d-block">GitHub</span>
+              </a>
+            </div>
+        </div>
 
         </div>
 

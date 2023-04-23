@@ -160,9 +160,29 @@ button {
 }
 
 /* =========CONTACT STYLING======= */
+#socials {
+  justify-content: space-between;
+}
+
 .social-icon{
-  color: var(--secondary-highlight);
+  color: var(--main-highlight);
   font-size: 3rem;
+}
+
+.social-icon:hover {
+  color: var(--secondary-highlight);
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: var(--secondary-highlight);
+}
+
+.social-link:visited {
+  color: var(--secondary-neutral);
 }
 
 
