@@ -40,7 +40,7 @@ export const AboutPage = () => {
 
                 <div id="techstackicons" className="row justify-content-center">
                 <div className="col-12 col-md-8 col-lg-6 w-100">
-                    <div className="row row-cols-3 row-cols-md-2 row-cols-lg-6 w-100">
+                    <div id="techstackrow" className="row row-cols-3 row-cols-md-2 row-cols-lg-6 w-100">
                         <div className="col">
                         <div className="tool">
                             <FontAwesomeIcon icon={faHtml5} className="tool-icon" />

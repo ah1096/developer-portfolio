@@ -5,8 +5,8 @@ export const ContactPage = () => {
 
   return ( 
 
-  <div id="contactpage" className="container vh-100 w-100 mx-auto position-relative">
-      <div className="row position-absolute bottom-50 alignt-items-center">
+  <div id="contactpage" className="container vh-50 w-100 mx-auto">
+      <div className="row align-items-center">
 
         <h1 id="contactlink">Contact me</h1>
 

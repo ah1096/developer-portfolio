@@ -141,6 +141,11 @@ button {
 .tool-icon {
   font-size: 3rem;
   margin-bottom: 0.5rem;
+  color: var(--secondary-highlight);
+}
+
+#techstackrow {
+  margin-top: 10px;
 }
 
 /* ========NAVBAR STYLING========== */
