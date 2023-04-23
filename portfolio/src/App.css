@@ -143,6 +143,17 @@ button {
   margin-bottom: 0.5rem;
 }
 
+/* ========NAVBAR STYLING========== */
+
+.navbar-toggler {
+  color: var(--main-highlight);
+  border: none;
+}
+
+.nav-link:hover {
+  color: var(--main-highlight);
+}
+
 
 
 
