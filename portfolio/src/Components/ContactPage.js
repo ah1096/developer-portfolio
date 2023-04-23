@@ -5,8 +5,8 @@ export const ContactPage = () => {
 
   return ( 
 
-  <div id="contactpage" className="container">
-      <div className="row">
+  <div id="contactpage" className="container vh-100 w-100 mx-auto">
+      <div className="row align-items-center vh-100">
 
         <h1>Contact me</h1>
 
