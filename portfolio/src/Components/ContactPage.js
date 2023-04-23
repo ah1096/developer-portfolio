@@ -5,10 +5,10 @@ export const ContactPage = () => {
 
   return ( 
 
-  <div id="contactpage" className="container vh-100 w-100 mx-auto">
-      <div className="row align-items-center">
+  <div id="contactpage" className="container vh-100 w-100 mx-auto position-relative">
+      <div className="row position-absolute bottom-50 alignt-items-center">
 
-        <h1>Contact me</h1>
+        <h1 id="contactlink">Contact me</h1>
 
         <div id="contacttext" className="col-6">
           <p>this is some text about how you can get in touch with me</p>

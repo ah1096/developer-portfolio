@@ -9,7 +9,7 @@ export const ProjectPage = () => {
     
             <div className="row align-items-center">
             <div className="col-md-4">
-                <h1>Projects</h1>
+                <h1 id="projectlink">Projects</h1>
             </div>
             <div className="pixelfont col-md-8 align-self-center">
                 <h10>

@@ -22,17 +22,17 @@ export const NavigationMenu = () => {
                 </a>
             </li>
             <li className="nav-item ms-auto">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#projectlink">
                 projects
                 </a>
             </li>
             <li className="nav-item ms-auto">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#aboutlink">
                 about
                 </a>
             </li>
             <li className="nav-item ms-auto">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contactlink">
                 contact
                 </a>
             </li>

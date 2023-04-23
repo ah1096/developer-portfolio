@@ -18,7 +18,7 @@ export const AboutPage = () => {
     
     return ( 
         <div id="aboutpage" className="container vh-100 w-100 mx-auto slide-in-bottom">
-            <h1>About me</h1>
+            <h1 id="aboutlink">About me</h1>
 
             <div className="row align-items-center">
                 <div id="abouttext" className="col-9">
