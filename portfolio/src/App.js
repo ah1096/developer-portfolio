@@ -6,9 +6,9 @@ import { ContactPage } from './Components/ContactPage.js'
 import { NavigationMenu } from './Components/NavigationMenu.js'
 
 // TODO/stretch goals:
-// - add typewriter effect to LandingPage header text
+// - add typewriter effect to LandingPage header text?
 // - add aseSprite avatar to Landinpage in place of icon
-// - create float-in effect (see sliding mushrooms project from 50p50d)
+
 
 export default function App() {
   return (
@@ -22,6 +22,7 @@ export default function App() {
   <ProjectPage />
 
 {/* //ABOUT PAGE: blurb about my education, professional experience, interests + photo; tech stack list */}
+
   <AboutPage />
 
 {/* //CONTACT PAGE: blurb with CTA, icons w/ links to socials, email form */}

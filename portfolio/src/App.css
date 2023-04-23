@@ -55,14 +55,14 @@ button {
 
 /* ============ PROJECT CARD HOVER EFFECT ============= */
 .hovercontainer {
-  position: relative;
+  position: absolute;
   width: 100%;
-  max-width: 400px;
+
 }
 
 .projectimage {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 15px;
 }
@@ -185,6 +185,8 @@ button {
 .social-link:visited {
   color: var(--secondary-neutral);
 }
+
+
 
 
 

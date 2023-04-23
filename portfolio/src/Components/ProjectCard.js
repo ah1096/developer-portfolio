@@ -7,8 +7,8 @@ const placeholder = {
 
 export const ProjectCard = () => {
     return(
-        <div className="project-card-container">
-        <div className="col-sm-6 col-lg-12 mb-4">
+        
+        <div>
             <div className="hovercontainer h-auto w-auto">
                 <img src={placeholder.imageUrl} className="projectimage img-fluid"/>
                 <div className="overlay">
@@ -39,6 +39,6 @@ export const ProjectCard = () => {
                 </div>
             </div>
         </div>
-    </div>
+
     );
 };
