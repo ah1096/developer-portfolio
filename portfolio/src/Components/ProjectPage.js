@@ -5,8 +5,6 @@ import neighborly from '../images/projects/refresh_neighborly.png';
 import todolist from '../images/projects/refresh_todolist.png';
 
 
-// TODO: fix image issue; figure out why they're not loading, if no solution just monkey-brain it
-
 export const ProjectPage = () => {
     useSlideInFromBottom();
 
