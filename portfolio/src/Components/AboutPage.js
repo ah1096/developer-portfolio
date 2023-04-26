@@ -1,12 +1,12 @@
-import logo from '../images/AH_coding_logo.png';
+import headshot from '../images/headshot.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faJsSquare, faPython, faBootstrap, faReact, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBugSlash, faCheckDouble, faDatabase, faArrowsSpin } from "@fortawesome/free-solid-svg-icons";
 import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
 
-const brandLogo = {
-    name: 'brandLogo',
-    imageUrl: logo,
+const profilePhoto = {
+    name: 'headshot',
+    imageUrl: headshot,
     imageHeight: 90,
     imageWidth: 90,
 };
@@ -22,14 +22,15 @@ export const AboutPage = () => {
 
             <div className="row align-items-center">
                 <div id="abouttext" className="col-9">
-                    <p>this is a blurb with some texts about my education, experience, and interests</p>
+                    <p>Hello again -- you must be tired from scrolling, have some tea. 🍵 </p>
+                    <p>I graduated from the <strong className="highlighttext"> University of Kentucky </strong> with a BA in Japanese, then made a career pivot and graduated from Awesome Inc's 
+                    <strong className="highlighttext"> Web Developer Bootcamp </strong>. I've recently completed an <strong className="highlighttext">internship</strong> as a web developer in Seminaut Inc's testing team.</p>
+                    <p>When I'm not working on coding projects, I spend my time watching horror films, playing video games, making art, and playing DnD ⚔️</p>
                 </div>
 
                 <div id="profilepic" className="col-3">
-                    <img className="w-100" src={brandLogo.imageUrl} 
-                    alt="a dark pink hexagon inside with is Alyssa Holbert's brand logo, 
-                    a small letter H inside of a large letter A; boths letters share a 
-                    horizontal line" />
+                    <img className="w-100" src={profilePhoto.imageUrl} 
+                    alt="an image of the website creator, Alyssa Holbert" />
                 </div>
             </div>
 

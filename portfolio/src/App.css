@@ -53,6 +53,10 @@ button {
   color: var(--main-highlight);
 }
 
+#japaneselink {
+  color: var(--secondary-highlight);
+}
+
 /* ============ PROJECT CARD HOVER EFFECT ============= */
 .hovercontainer {
   position: absolute;

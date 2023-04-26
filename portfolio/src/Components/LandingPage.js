@@ -24,6 +24,8 @@ export const LandingPage = () => {
                     <p>I'm currently searching for <strong className="highlighttext">new opportunities</strong>. 
                     Let's get in touch!
                     </p>
+
+                    <small id="japaneselink">日本語のサイトはこちら X</small>
                 </div>
 
                 <div id="landingicon" className="col-4">
