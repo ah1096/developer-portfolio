@@ -21,13 +21,13 @@ export const ProjectPage = () => {
             </div>
 
             <div id="projectcards" className="row flex-column flex-md-row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-                <div className="col">
+                <div className="col-6 col-sm-4 col-md-3">
                     <ProjectCard />
                 </div>
-                <div className="col">
+                <div className="col-6 col-sm-4 col-md-3">
                     <ProjectCard />
                 </div>
-                <div className="col">
+                <div className="col-6 col-sm-4 col-md-3">
                     <ProjectCard />
                 </div>
             </div>
