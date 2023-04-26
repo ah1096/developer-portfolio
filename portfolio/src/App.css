@@ -132,7 +132,11 @@ button {
   transform: translateY(0);
 }
 
-/* ==============TECH STACK================ */
+/* ==============ABOUT + TECH STACK================ */
+
+#profilepic {
+  border-radius: 15px;
+}
 
 .tool {
   display: flex;

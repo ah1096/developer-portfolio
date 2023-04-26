@@ -2,7 +2,8 @@ import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
-
+// TODO: style this Component; make email form and button cute, add text, fix spacing+ make everything responsive
+// TODO: maybe add the Footer component below this??
 export const ContactPage = () => {
   useSlideInFromBottom()
 

@@ -11,7 +11,7 @@ const profilePhoto = {
     imageWidth: 90,
 };
 
-
+// TODO: make this component responsive; stack profile photo on top of AboutMe header
 
 export const AboutPage = () => {
     useSlideInFromBottom()
@@ -28,8 +28,8 @@ export const AboutPage = () => {
                     <p>When I'm not working on coding projects, I spend my time watching horror films, playing video games, making art, and playing DnD ⚔️</p>
                 </div>
 
-                <div id="profilepic" className="col-3">
-                    <img className="w-100" src={profilePhoto.imageUrl} 
+                <div id="profilepic-container" className="col-3">
+                    <img id="profilepic" className="w-100" src={profilePhoto.imageUrl} 
                     alt="an image of the website creator, Alyssa Holbert" />
                 </div>
             </div>

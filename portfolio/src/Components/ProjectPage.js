@@ -4,6 +4,9 @@ import mindreader from '../images/projects/refresh_mindreader.png';
 import neighborly from '../images/projects/refresh_neighborly.png';
 import todolist from '../images/projects/refresh_todolist.png';
 
+// TODO: make this component responsive; make cards stack vertically w/o leaking into AboutMe secion
+// TODO: add repo links + demo links to each project
+// TODO: make a portfolio gallery page with filterable tags
 
 export const ProjectPage = () => {
     useSlideInFromBottom();
@@ -34,11 +37,11 @@ export const ProjectPage = () => {
                     <h1 id="projectlink">Projects</h1>
                 </div>
 
-                <div className="pixelfont col-md-8 align-self-center">
+                {/* <div className="pixelfont col-md-8 align-self-center">
                     <h10>
                         see more at my <a href="#">portfolio gallery</a>!
                     </h10>
-                </div>
+                </div> */}
             </div>
 
             <div id="projectcards" className="row flex-column flex-md-row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
