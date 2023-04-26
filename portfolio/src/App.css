@@ -65,10 +65,12 @@ button {
 }
 
 .projectimage {
-  display: block;
+  /* display: block;
   width: 100%;
-  height: auto;
+  height: auto; */
   border-radius: 15px;
+    width: 350px;
+    height: auto;
 }
 
 .overlay {

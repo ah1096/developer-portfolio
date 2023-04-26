@@ -6,7 +6,7 @@ export const ProjectCard = ({ id, title, imageUrl, subtitle, tool1, tool2, tool3
         
         <div key={id} className="col-6 col-sm-4 col-md-3">
             <div className="hovercontainer h-auto w-auto">
-                <img src={imageUrl} className="projectimage img-fluid" style={{height: 400, width: 350}}/>
+                <img src={imageUrl} className="projectimage img-fluid"/>
                 <div className="overlay">
                     <div className="hovertext">
                         <div id="projectaboutrow">

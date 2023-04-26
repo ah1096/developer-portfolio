@@ -1,5 +1,8 @@
 import { ProjectCard } from './ProjectCard.js';
 import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
+import mindreader from '../images/projects/refresh_mindreader.png';
+import neighborly from '../images/projects/refresh_neighborly.png';
+import todolist from '../images/projects/refresh_todolist.png';
 
 
 // TODO: fix image issue; figure out why they're not loading, if no solution just monkey-brain it
@@ -8,17 +11,17 @@ export const ProjectPage = () => {
     useSlideInFromBottom();
 
     const projects = [
-        { id: 1, title: 'Mind Reader', imageUrl: `/public/projects/refresh_mindreader.png`, 
+        { id: 1, title: 'Mind Reader', imageUrl: mindreader, 
             subtitle: 'a fortune-teller that utilizes state manipulation to change page views', 
             tool1: 'HTML', tool2: 'CSS', tool3:'JavaScript',
             demolink:'',
             repolink:''},
-        { id: 2, title: 'Neighborly', imageUrl: `/public/projects/refresh_neighborly.png`,
+        { id: 2, title: 'Neighborly', imageUrl: neighborly,
             subtitle:'a social media site focused on building local connections, getting to know your neighbors, and creating a small-scale barter economy with other individuals in your community', 
             tool1: 'React', tool2: 'Bootstrap', tool3:'Django',
             demolink:'',
             repolink:''},
-        { id: 3, title: 'To-Do List', imageUrl: `/public/projects/refresh_todolist.png`,
+        { id: 3, title: 'To-Do List', imageUrl: todolist,
             subtitle: 'a to-do list app that utilizes local storage to save user data.',
             tool1: 'React', tool2: 'Bootstrap', tool3:'JavaScript',
             demolink:'',
