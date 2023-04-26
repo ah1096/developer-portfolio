@@ -2,6 +2,8 @@ import { ProjectCard } from './ProjectCard.js';
 import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
 
 
+// TODO: fix image issue; figure out why they're not loading, if no solution just monkey-brain it
+
 export const ProjectPage = () => {
     useSlideInFromBottom();
 
