@@ -5,6 +5,12 @@ import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
 export const ProjectPage = () => {
     useSlideInFromBottom();
 
+    const projects = [
+        { id: 1, title: 'Mind Reader', imageUrl: '' },
+        { id: 2, title: 'Neighborly', imageUrl: '' },
+        { id: 3, title: 'To-Do List', imageUrl: '' },
+    ];
+
     return (
         <div id="projectpage" className="container vh-100 w-100 mx-auto mb-5 slide-in-bottom">
 
@@ -21,7 +27,7 @@ export const ProjectPage = () => {
             </div>
 
             <div id="projectcards" className="row flex-column flex-md-row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-                <div className="col-6 col-sm-4 col-md-3">
+                {/* <div className="col-6 col-sm-4 col-md-3">
                     <ProjectCard />
                 </div>
                 <div className="col-6 col-sm-4 col-md-3">
@@ -29,7 +35,18 @@ export const ProjectPage = () => {
                 </div>
                 <div className="col-6 col-sm-4 col-md-3">
                     <ProjectCard />
-                </div>
+                </div> */}
+                <div>
+                {projects.map((project) => (
+                    <div className="col-6 col-sm-4 col-md-3">
+                        <ProjectCard
+                            key={project.id}
+                            title={project.title}
+                            imageUrl={project.imageUrl}
+                        />
+                    </div>
+                ))}
+    </div>
             </div>
 
         </div>
