@@ -6,9 +6,21 @@ export const ProjectPage = () => {
     useSlideInFromBottom();
 
     const projects = [
-        { id: 1, title: 'Mind Reader', imageUrl: '' },
-        { id: 2, title: 'Neighborly', imageUrl: '' },
-        { id: 3, title: 'To-Do List', imageUrl: '' },
+        { id: 1, title: 'Mind Reader', imageUrl: `/public/projects/refresh_mindreader.png`, 
+            subtitle: 'a fortune-teller that utilizes state manipulation to change page views', 
+            tool1: 'HTML', tool2: 'CSS', tool3:'JavaScript',
+            demolink:'',
+            repolink:''},
+        { id: 2, title: 'Neighborly', imageUrl: `/public/projects/refresh_neighborly.png`,
+            subtitle:'a social media site focused on building local connections, getting to know your neighbors, and creating a small-scale barter economy with other individuals in your community', 
+            tool1: 'React', tool2: 'Bootstrap', tool3:'Django',
+            demolink:'',
+            repolink:''},
+        { id: 3, title: 'To-Do List', imageUrl: `/public/projects/refresh_todolist.png`,
+            subtitle: 'a to-do list app that utilizes local storage to save user data.',
+            tool1: 'React', tool2: 'Bootstrap', tool3:'JavaScript',
+            demolink:'',
+            repolink:''},
     ];
 
     return (
@@ -27,26 +39,22 @@ export const ProjectPage = () => {
             </div>
 
             <div id="projectcards" className="row flex-column flex-md-row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-                {/* <div className="col-6 col-sm-4 col-md-3">
-                    <ProjectCard />
-                </div>
-                <div className="col-6 col-sm-4 col-md-3">
-                    <ProjectCard />
-                </div>
-                <div className="col-6 col-sm-4 col-md-3">
-                    <ProjectCard />
-                </div> */}
-                <div>
-                {projects.map((project) => (
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <ProjectCard
-                            key={project.id}
-                            title={project.title}
-                            imageUrl={project.imageUrl}
-                        />
+
+                    {projects.map((project) => (
+                        <div key={project.id} className="col-6 col-sm-4 col-md-3">
+                            <ProjectCard
+                                title={project.title}
+                                imageUrl={project.imageUrl}
+                                subtitle={project.subtitle}
+                                tool1={project.tool1}
+                                tool2={project.tool2}
+                                tool3={project.tool3}
+                                demolink={project.demolink}
+                                repolink={project.repolink}
+                            />
                     </div>
-                ))}
-    </div>
+                    ))}
+
             </div>
 
         </div>
