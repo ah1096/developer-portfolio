@@ -168,6 +168,7 @@ button {
 }
 
 /* =========CONTACT STYLING======= */
+
 #socials {
   justify-content: space-between;
 }
@@ -203,6 +204,10 @@ button {
   background-color: var(--main-neutral);
   border: 1px solid var(--main-highlight);
   color: var(--main-highlight);
+}
+
+#inputfield {
+  border: 3px solid var(--secondary-highlight);
 }
 
 

@@ -64,18 +64,18 @@ export const ContactPage = () => {
 
             <form onSubmit={sendEmail} id="emailsubmit">
               <div class="mb-3">
-                <input type="text" class="form-control" name="from_name" id="nameinput" placeholder="name"/>
+                <input type="text" class="form-control" name="from_name" id="inputfield" placeholder="name"/>
               </div>
 
               <div class="mb-3">
-                <input type="email" class="form-control" name="reply_to" id="emailinput" placeholder="email"/>
+                <input type="email" class="form-control" name="reply_to" id="inputfield" placeholder="email"/>
               </div>
 
               <div class="mb-3">
-                <textarea type="text" class="form-control" name="message" id="messageinput" placeholder="message" rows="4"/>
+                <textarea type="text" class="form-control" name="message" id="inputfield" placeholder="message" rows="4"/>
               </div>
 
-              <button type="submit" className="emailbutton btn" href="#">say hi</button>
+              <button type="submit" className="emailbutton btn">say hi</button>
             </form>
 
         </div>
