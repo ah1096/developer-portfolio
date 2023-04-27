@@ -31,6 +31,7 @@ export const LandingPage = () => {
                 <div id="landingicon" className="col-4">
                     <img className="w-100" src={brandLogo.imageUrl} alt="a dark pink hexagon inside with is Alyssa Holbert's brand logo, a small letter H inside of a large letter A; boths letters share a horizontal line" />
                 </div>
+                
             </div>
         </div>
     );

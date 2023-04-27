@@ -26,31 +26,32 @@ export const ContactPage = () => {
 
   return ( 
 
-  <div id="contactpage" className="container vh-50 w-100 mx-auto">
-      <div className="row align-items-center">
-
-        <h1 id="contactlink">Contact me</h1>
+    <div id="contactpage" className="container vh-100 w-100 mx-auto">
+    <div className="row align-items-center vh-100  slide-in-bottom">
 
         <div id="contacttext" className="col-6">
+          <h1 id="contactlink">Let's connect!</h1>
           <div className="row">
-            <p>this is some text about how you can get in touch with me</p>
+            <p>If you want to have a quick chat or enquire about having a website made,
+              you can connect with me on LinkedIn
+              or you send me a message here!</p>
           </div>
 
-          <div className="row align-items-center text-center">
+          <div className="row align-items-center text-center justify-content-center mt-3">
             <div className="col-sm-4">
-              <a className="social-link" href="#">
+              <a className="social-link" href="https://www.linkedin.com/in/alyssa-r-holbert/" target="blank">
                 <FontAwesomeIcon className="social-icon" icon={faLinkedin} />
                 <span className="d-block">LinkedIn</span>
               </a>
             </div>
-            <div className="col-sm-4">
+            {/* <div className="col-sm-4">
               <a className="social-link" href="#">
-                <FontAwesomeIcon className="social-icon" icon={faDiscord}/>
+                <FontAwesomeIcon className="social-icon" href="discordapp.com/users/7011" target="blank" icon={faDiscord}/>
                 <span className="d-block">Discord</span>
               </a>
-            </div>
+            </div> */}
             <div className="col-sm-4">
-              <a className="social-link" href="#">
+              <a className="social-link" href="https://github.com/ah1096" target="blank">
                 <FontAwesomeIcon className="social-icon" icon={faGithub}/>
                 <span className="d-block">GitHub</span>
               </a>
@@ -74,7 +75,7 @@ export const ContactPage = () => {
                 <textarea type="text" class="form-control" name="message" id="messageinput" placeholder="message" rows="4"/>
               </div>
 
-              <button type="submit" className="btn btn-primary" href="#">say hi</button>
+              <button type="submit" className="emailbutton btn" href="#">say hi</button>
             </form>
 
         </div>

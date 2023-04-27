@@ -193,6 +193,18 @@ button {
   color: var(--secondary-neutral);
 }
 
+.emailbutton {
+  background-color: var(--main-highlight);
+  border: 1px solid var(--main-highlight);
+  color: var(--main-neutral);
+}
+
+.emailbutton:hover{
+  background-color: var(--main-neutral);
+  border: 1px solid var(--main-highlight);
+  color: var(--main-highlight);
+}
+
 
 
 
