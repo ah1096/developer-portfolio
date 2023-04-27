@@ -15,18 +15,18 @@ export const ProjectPage = () => {
         { id: 1, title: 'Mind Reader', imageUrl: mindreader, 
             subtitle: 'a fortune-teller that utilizes state manipulation to change page views', 
             tool1: 'HTML', tool2: 'CSS', tool3:'JavaScript',
-            demolink:'',
-            repolink:''},
+            demolink:'https://ah1096.github.io/mind-reader/',
+            repolink:'https://github.com/ah1096/mind-reader'},
         { id: 2, title: 'Neighborly', imageUrl: neighborly,
             subtitle:'a social media site focused on building local connections, getting to know your neighbors, and creating a small-scale barter economy with other individuals in your community', 
             tool1: 'React', tool2: 'Bootstrap', tool3:'Django',
-            demolink:'',
-            repolink:''},
+            demolink:'https://neighborly-e5a2f.web.app/home',
+            repolink:'https://github.com/ah1096/Neighborly'},
         { id: 3, title: 'To-Do List', imageUrl: todolist,
             subtitle: 'a to-do list app that utilizes local storage to save user data.',
             tool1: 'React', tool2: 'Bootstrap', tool3:'JavaScript',
             demolink:'',
-            repolink:''},
+            repolink:'https://github.com/ah1096/2dew'},
     ];
 
     return (

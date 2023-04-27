@@ -24,10 +24,10 @@ export const ProjectCard = ({ id, title, imageUrl, subtitle, tool1, tool2, tool3
 
                         <div className="row" id="buttonrow">
                             <div className="col">
-                                <button type="button" className="btn btn-primary pinkbutton" href={demolink}>demo</button>
+                                <a type="button" className="btn btn-primary pinkbutton" href={demolink} target="blank">site</a>
                             </div>
                             <div className="col">
-                                <button type="button" className="btn btn-primary pinkbutton" href={repolink}>repo</button>
+                                <a type="button" className="btn btn-primary pinkbutton" href={repolink} target="blank">repo</a>
                             </div>
                         </div>
 
