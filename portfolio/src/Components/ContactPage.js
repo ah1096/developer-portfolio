@@ -2,8 +2,25 @@ import { useSlideInFromBottom } from '../Hooks/UseSlideInFromBottom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
+import emailjs from 'emailjs-com';
+import EMAILJS_CONFIG from '../emailjs.config';
+
 // TODO: style this Component; make email form and button cute, add text, fix spacing+ make everything responsive
 // TODO: maybe add the Footer component below this??
+
+function sendEmail(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(EMAILJS_CONFIG.SERVICE_ID, EMAILJS_CONFIG.TEMPLATE_ID, e.target, EMAILJS_CONFIG.USER_ID)
+    .then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
+}
+
+
+
 export const ContactPage = () => {
   useSlideInFromBottom()
 
@@ -44,17 +61,17 @@ export const ContactPage = () => {
 
         <div id="emailsection" className="col-6">
 
-            <form id="emailsubmit">
+            <form onSubmit={sendEmail} id="emailsubmit">
               <div class="mb-3">
-                <input type="text" class="form-control" id="nameinput"  placeholder="name"/>
+                <input type="text" class="form-control" name="from_name" id="nameinput" placeholder="name"/>
               </div>
 
               <div class="mb-3">
-                <input type="email" class="form-control" id="emailinput" placeholder="email"/>
+                <input type="email" class="form-control" name="reply_to" id="emailinput" placeholder="email"/>
               </div>
 
               <div class="mb-3">
-                <textarea type="text" class="form-control" id="messagebody" placeholder="message" rows="4"/>
+                <textarea type="text" class="form-control" name="message" id="messageinput" placeholder="message" rows="4"/>
               </div>
 
               <button type="submit" className="btn btn-primary" href="#">say hi</button>
