@@ -73,7 +73,9 @@ export const ContactPage = () => {
                 <textarea type="text" class="form-control" name="message" id="inputfield" placeholder="message" rows="4"/>
               </div>
 
-              <button type="submit" className="emailbutton btn">say hi</button>
+              <div className="row justify-content-end">
+                <button type="submit" className="emailbutton btn col-3 me-2">say hi</button>
+              </div>
             </form>
 
         </div>
