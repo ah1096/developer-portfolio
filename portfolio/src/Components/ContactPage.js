@@ -5,8 +5,8 @@ import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-ic
 import emailjs from 'emailjs-com';
 import EMAILJS_CONFIG from '../emailjs.config';
 
-// TODO: style this Component; make email form and button cute, add text, fix spacing+ make everything responsive
-// TODO: maybe add the Footer component below this??
+// TODO: make everything responsive
+
 
 function sendEmail(e) {
   e.preventDefault();
@@ -18,8 +18,6 @@ function sendEmail(e) {
       console.log(error.text);
     });
 }
-
-
 
 export const ContactPage = () => {
   useSlideInFromBottom()
