@@ -25,7 +25,7 @@ export const LandingPage = () => {
                     Let's get in touch!
                     </p>
 
-                    <small id="japaneselink">日本語のサイトはこちら X</small>
+                    {/* <small id="japaneselink">日本語のサイトはこちら X</small> */}
                 </div>
 
                 <div id="landingicon" className="col-4">

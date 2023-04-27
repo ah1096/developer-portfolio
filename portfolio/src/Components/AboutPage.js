@@ -26,8 +26,8 @@ export const AboutPage = () => {
                 <div id="abouttext" className="col-9">
                     <p>Hello again -- you must be tired from scrolling, have some tea. 🍵 </p>
                     <p>I graduated from the <strong className="highlighttext"> University of Kentucky </strong> with a BA in Japanese, then made a career pivot and graduated from Awesome Inc's 
-                    <strong className="highlighttext"> Web Developer Bootcamp </strong>. I've recently completed an <strong className="highlighttext">internship</strong> as a web developer in Seminaut Inc's testing team.</p>
-                    <p>When I'm not working on coding projects, I spend my time watching horror films, playing video games, making art, and playing DnD ⚔️</p>
+                    <strong className="highlighttext"> Web Developer Bootcamp</strong>. I've recently completed an <strong className="highlighttext">internship</strong> as a web developer in Seminaut Inc's testing team.</p>
+                    <p>When I'm not working on coding projects, I spend my time watching horror films, playing video games, making art, and playing DnD with friends. ⚔️</p>
                 </div>
 
                 <div id="profilepic-container" className="col-3">
@@ -43,7 +43,7 @@ export const AboutPage = () => {
 
                 <div id="techstackicons" className="row justify-content-center">
                 <div className="col-12 col-md-8 col-lg-6 w-100">
-                    <div id="techstackrow" className="row row-cols-3 row-cols-md-2 row-cols-lg-6 w-100">
+                    <div id="techstackrow" className="row row-cols-3 row-cols-md-2 row-cols-lg-6 w-100 justify-content-center">
                         <div className="col">
                         <div className="tool">
                             <FontAwesomeIcon icon={faHtml5} className="tool-icon" />

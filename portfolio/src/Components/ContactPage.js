@@ -32,13 +32,13 @@ export const ContactPage = () => {
         <div id="contacttext" className="col-6">
           <h1 id="contactlink">Let's connect!</h1>
           <div className="row">
-            <p>If you want to have a quick chat or enquire about having a website made,
+            <p>If you want to have a quick chat or ask about having a website made,
               you can connect with me on LinkedIn
-              or you send me a message here!</p>
+              or you can send me an email here!</p>
           </div>
 
           <div className="row align-items-center text-center justify-content-center mt-3">
-            <div className="col-sm-4">
+            <div className="col-sm-6 col-m-4">
               <a className="social-link" href="https://www.linkedin.com/in/alyssa-r-holbert/" target="blank">
                 <FontAwesomeIcon className="social-icon" icon={faLinkedin} />
                 <span className="d-block">LinkedIn</span>
@@ -50,7 +50,7 @@ export const ContactPage = () => {
                 <span className="d-block">Discord</span>
               </a>
             </div> */}
-            <div className="col-sm-4">
+            <div className="col-sm-6 col-m-4">
               <a className="social-link" href="https://github.com/ah1096" target="blank">
                 <FontAwesomeIcon className="social-icon" icon={faGithub}/>
                 <span className="d-block">GitHub</span>

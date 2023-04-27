@@ -4,7 +4,7 @@ export const ProjectCard = ({ id, title, imageUrl, subtitle, tool1, tool2, tool3
     
     return(
         
-        <div key={id} className="col-6 col-sm-4 col-md-3">
+        <div key={id} className="col-sm-12 col-md-4">
             <div className="hovercontainer h-auto w-auto">
                 <img src={imageUrl} className="projectimage img-fluid"/>
                 <div className="overlay">
