@@ -6,6 +6,7 @@ import emailjs from 'emailjs-com';
 import EMAILJS_CONFIG from '../emailjs.config';
 
 // TODO: make everything responsive
+// TODO: add a "your email sent" modal on button click
 
 
 function sendEmail(e) {

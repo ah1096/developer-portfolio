@@ -4,7 +4,7 @@ import mindreader from '../images/projects/refresh_mindreader.png';
 import neighborly from '../images/projects/refresh_neighborly.png';
 import todolist from '../images/projects/refresh_todolist.png';
 
-// TODO: make this component responsive; make cards stack vertically w/o leaking into AboutMe secion
+// TODO: make this component responsive; make cards stack vertically w/o leaking into AboutMe section
 // TODO: add repo links + demo links to each project
 // TODO: make a portfolio gallery page with filterable tags
 
