@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.797afa87.css",
-    "main.js": "/developer-portfolio/static/js/main.0979f95e.js",
+    "main.css": "/developer-portfolio/static/css/main.2ae8f40c.css",
+    "main.js": "/developer-portfolio/static/js/main.992630bf.js",
     "static/js/787.1ed0c42c.chunk.js": "/developer-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/mindreadergif.gif": "/developer-portfolio/static/media/mindreadergif.c51b990a8179a71748e1.gif",
     "static/media/headshot.jpg": "/developer-portfolio/static/media/headshot.95bb709178417621e79b.jpg",
-    "static/media/neighborly.gif": "/developer-portfolio/static/media/neighborly.17286fae09e22b58a22c.gif",
-    "static/media/todolist.gif": "/developer-portfolio/static/media/todolist.a58150f229a49618e6ac.gif",
-    "static/media/alarmclock.gif": "/developer-portfolio/static/media/alarmclock.b03a1ae5354987a1cfce.gif",
-    "static/media/Alyssa-Holbert-2023-resume.pdf": "/developer-portfolio/static/media/Alyssa-Holbert-2023-resume.4546c4b705b2a38c5c6c.pdf",
-    "static/media/AH_coding_logo_BLACK.png": "/developer-portfolio/static/media/AH_coding_logo_BLACK.502218510f6193fd40aa.png",
+    "static/media/refresh_mindreader.png": "/developer-portfolio/static/media/refresh_mindreader.cb9299527c2d54e8c061.png",
+    "static/media/refresh_neighborly.png": "/developer-portfolio/static/media/refresh_neighborly.a281a57ff904de283743.png",
+    "static/media/refresh_todolist.png": "/developer-portfolio/static/media/refresh_todolist.11b197593803645e0438.png",
     "static/media/AH_coding_logo.png": "/developer-portfolio/static/media/AH_coding_logo.2417ffd8310160c7a06d.png",
     "index.html": "/developer-portfolio/index.html",
-    "main.797afa87.css.map": "/developer-portfolio/static/css/main.797afa87.css.map",
-    "main.0979f95e.js.map": "/developer-portfolio/static/js/main.0979f95e.js.map",
+    "main.2ae8f40c.css.map": "/developer-portfolio/static/css/main.2ae8f40c.css.map",
+    "main.992630bf.js.map": "/developer-portfolio/static/js/main.992630bf.js.map",
     "787.1ed0c42c.chunk.js.map": "/developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.797afa87.css",
-    "static/js/main.0979f95e.js"
+    "static/css/main.2ae8f40c.css",
+    "static/js/main.992630bf.js"
   ]
 }
